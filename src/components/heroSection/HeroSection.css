@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Boldonse&family=Domine:wght@400..700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Whisper&display=swap");
+
+.mainHero-container {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px 0 10px;
+}
+
+.heroBanner-box {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.textBox-one {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textBox-two {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textBox-three {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.eventName {
+  background-image: url(./heroTexxttBg.png);
+  background-position: center;
+  background-size: cover;
+  color: transparent;
+  background-clip: text;
+  font-size: 3.2rem;
+  font-family: "Righteous", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.eventYear {
+  background-image: url(./heroTexxttBg.png);
+  background-position: center;
+  background-size: cover;
+  color: transparent;
+  background-clip: text;
+  font-size: 2.4rem;
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.eventOrganiser {
+  background-image: url(./heroTexxttBg.png);
+  background-position: center;
+  background-size: cover;
+  color: transparent;
+  background-clip: text;
+  font-size: 1.9rem;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: 5px;
+  text-align: center;
+}
+
+@media (max-width: 689px) {
+  .eventName {
+    font-size: 2rem;
+  }
+  .eventYear {
+    font-size: 2rem;
+  }
+  .eventOrganiser {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 487px) {
+  .eventName {
+    font-size: 1.5rem;
+  }
+  .eventYear {
+    font-size: 1.5rem;
+  }
+  .eventOrganiser {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 404px) {
+  .eventName {
+    font-size: 1.1rem;
+  }
+  .eventYear {
+    font-size: 1.1rem;
+  }
+  .eventOrganiser {
+    font-size: 1rem;
+  }
+}

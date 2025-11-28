@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Boldonse&family=Dancing+Script:wght@400..700&family=Domine:wght@400..700&family=Lobster&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Whisper&display=swap");
+
+.socialMedia-container {
+  width: 50%;
+  height: 10px;
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+  margin: auto;
+  border-radius: 15px;
+  border: 3px solid rgba(0, 128, 0, 0.175);
+  box-shadow: 4px 4px 10px black, -4px -4px 10px black;
+  margin-bottom: 20px;
+}
+
+.socialMedia-title {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Dancing Script", cursive;
+  text-shadow: 2px 2px 4px black;
+}
+
+.socialMidea-icons {
+  font-size: 3rem;
+  text-decoration: none;
+  color: rgb(114, 13, 153);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+  text-shadow: 20px 20px 10px black;
+}
+
+.insta-icon {
+  font-size: 2.7rem;
+}
+
+.socialMidea-icons:hover {
+  transform: rotateZ(360deg);
+  color: rgba(0, 255, 255, 0.884);
+}
+
+@media (max-width: 899px) {
+  .socialMedia-container {
+    width: 65%;
+    padding: 25px 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .socialMidea-icons {
+    font-size: 2.5rem;
+  }
+  .insta-icon {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 567px) {
+  .socialMedia-title {
+    font-size: 1rem;
+  }
+  .socialMedia-container {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 459px) {
+  .socialMedia-title {
+    font-size: 1rem;
+  }
+  .socialMedia-container {
+    gap: 5px;
+    padding: 20px 25px;
+  }
+  .socialMidea-icons {
+    font-size: 2.4rem;
+  }
+  .insta-icon {
+    font-size: 2.1rem;
+  }
+}
+
+@media (max-width: 418px) {
+  .socialMedia-title {
+    font-size: 0.9rem;
+  }
+  .socialMidea-icons {
+    font-size: 2.2rem;
+  }
+  .insta-icon {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 396px) {
+  .socialMedia-title {
+    font-size: 0.9rem;
+  }
+  .socialMidea-icons {
+    font-size: 2.1rem;
+  }
+  .insta-icon {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .socialMedia-title {
+    font-size: 0.8rem;
+  }
+  .socialMidea-icons {
+    font-size: 2;
+  }
+  .insta-icon {
+    font-size: 1.7rem;
+  }
+  .socialMedia-container {
+    width: 70%;
+    padding: 30px 15px;
+  }
+}

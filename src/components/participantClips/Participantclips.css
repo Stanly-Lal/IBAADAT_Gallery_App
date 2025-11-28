@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Boldonse&family=Dancing+Script:wght@400..700&family=Domine:wght@400..700&family=Lobster&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Whisper&display=swap");
+
+.allVideo-mainContainer {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.allVid-headingContainer {
+  width: 45%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid grey;
+}
+
+.allVid-heading {
+  font-size: 3rem;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: linear-gradient(
+    to bottom,
+    grey,
+    silver,
+    silver,
+    white,
+    white,
+    aliceblue
+  );
+  color: transparent;
+  background-clip: text;
+}
+
+.allVid-container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  gap: 10px;
+  padding: 20px;
+}
+
+.singleVid-container {
+  width: 400px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  flex-direction: column;
+  padding: 10px;
+  gap: 2px;
+}
+
+.video-container {
+  width: 95%;
+  height: 70%;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.allPart-vids {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.allPart-vids:hover {
+  transform: scale(1.01);
+  border: 2px solid orange;
+  box-shadow: 1px 1px 10px aqua, -1px -1px 10px aqua;
+}
+
+.textContent-container {
+  width: 95%;
+  height: 30%;
+  background-color: rgba(255, 0, 255, 0.063);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 5px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+  color: white;
+  border-radius: 0 0 10px 10px;
+}
+
+.partVid-title {
+  font-size: 1.3rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.partVid-title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.partVid-category {
+  font-size: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.partVid-category:hover {
+  letter-spacing: 1.4px;
+}
+
+.partVid-position {
+  font-size: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.partVid-position:hover {
+  letter-spacing: 2px;
+}
+
+.downloadSection-Container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.downloadBtn {
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 4px 8px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  text-shadow: 1px 1px 4px black;
+}
+
+.downloadBtn:hover {
+  transform: scale(0.95);
+  color: aqua;
+}
+
+@media (max-width: 910px) {
+  .allVid-headingContainer {
+    width: 60%;
+  }
+}
+
+@media (max-width: 688px) {
+  .allVid-headingContainer {
+    width: 70%;
+  }
+  .allVid-heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .allVid-container {
+    width: 100%;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 470px) {
+  .allVid-headingContainer {
+    width: 70%;
+  }
+  .allVid-heading {
+    font-size: 1.7rem;
+  }
+  .singleVid-container {
+    width: 480px;
+    height: 330px;
+  }
+  .textContent-container {
+    height: 40%;
+  }
+}
+
+@media (max-width: 390px) {
+  .partVid-title {
+    font-size: 1.1rem;
+  }
+  .partVid-category {
+    font-size: 0.85rem;
+  }
+  .partVid-position {
+    font-size: 0.85rem;
+  }
+  .downloadBtn {
+    font-size: 0.65rem;
+    padding: 4px 4px;
+  }
+}
+
+@media (max-width: 370px) {
+  .singleVid-container {
+    width: 450px;
+    height: 300px;
+  }
+  .allVid-heading {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 337px) {
+  .partVid-title {
+    font-size: 1rem;
+  }
+  .partVid-category {
+    font-size: 0.7rem;
+  }
+  .partVid-position {
+    font-size: 0.8rem;
+  }
+  .downloadBtn {
+    font-size: 0.6rem;
+  }
+  .partVid-position:hover {
+    letter-spacing: 1.5px;
+  }
+  .allVid-heading {
+    font-size: 1.4rem;
+  }
+}

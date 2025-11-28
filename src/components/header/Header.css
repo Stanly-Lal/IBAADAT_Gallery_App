@@ -1,0 +1,170 @@
+.header {
+  width: 100vw;
+  height: 90px;
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.355);
+  position: relative;
+  z-index: 10;
+}
+
+.head-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-right {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-btn {
+  color: white;
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.toggle-menu {
+  width: 100%;
+  height: 220px;
+  position: absolute;
+  top: 90px;
+  top: -200%;
+  background-color: rgba(0, 128, 0, 0.033);
+  backdrop-filter: blur(5px);
+  border-bottom: 3px solid rgba(0, 128, 0, 0.179);
+  box-shadow: 4px 4px 10px black;
+  border-radius: 0 0 20px 20px;
+  align-self: center;
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+  z-index: 1;
+  padding: 2px 5px;
+}
+
+.verse {
+  font-size: 2.9vw;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  background-color: rgba(255, 0, 255, 0.064);
+  border-radius: 10px;
+}
+
+.verse-reference {
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  background-color: rgba(255, 0, 255, 0.271);
+  border-radius: 10px;
+  padding: 0 8px;
+}
+
+.mainLogo-container {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-image: url(./Logo.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+
+.logoText-container {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 5px;
+}
+
+.logoText {
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
+
+@media (max-width: 1100px) {
+  .toggle-menu {
+    height: 150px;
+  }
+}
+
+@media (max-width: 750px) {
+  .toggle-menu {
+    height: 90px;
+  }
+}
+
+@media (max-width: 980px) {
+  .logoText {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 591px) {
+  .logoText {
+    font-size: 1rem;
+  }
+  .head-left {
+    width: 50%;
+  }
+  .head-right {
+    width: 20%;
+    padding-right: 20px;
+  }
+  .toggle-menu {
+    height: 80px;
+  }
+  .header {
+    backdrop-filter: blur(2px);
+  }
+}
+
+@media (max-width: 397px) {
+  .logoText {
+    font-size: 0.8rem;
+  }
+  .header {
+    height: 85px;
+  }
+  .toggle-menu {
+    height: 60px;
+  }
+}
+
+@media (max-width: 346px) {
+  .logoText {
+    font-size: 0.7rem;
+  }
+  .head-left {
+    width: 60%;
+  }
+  .toggle-menu {
+    height: 50px;
+  }
+}
