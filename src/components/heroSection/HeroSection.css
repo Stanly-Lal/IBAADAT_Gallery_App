@@ -41,7 +41,7 @@
 }
 
 .eventName {
-  background-image: url("/IBAADAT_Gallery_App/heroTexxttBg.png");
+  background-image: url("/heroTextBg.png");
   background-position: center;
   background-size: cover;
   color: transparent;
@@ -55,7 +55,7 @@
 }
 
 .eventYear {
-  background-image: url("/IBAADAT_Gallery_App/heroTexxttBg.png");
+  background-image: url("/heroTextBg.png");
   background-position: center;
   background-size: cover;
   color: transparent;
@@ -69,7 +69,7 @@
 }
 
 .eventOrganiser {
-  background-image: url("/IBAADAT_Gallery_App/heroTexxttBg.png");
+  background-image: url("/heroTextBg.png");
   background-position: center;
   background-size: cover;
   color: transparent;
