@@ -11,7 +11,7 @@ const FinalClip = () => {
         <div className="clip-container">
           <iframe
             className="clip"
-            src="https://www.youtube.com/embed/D5h636zXbXM?si=Q6L10QAHXcACUEDW"
+            src="https://www.youtube.com/embed/SG_43Hf9Gdw?si=BVUhEyOMV5VI61j0"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
